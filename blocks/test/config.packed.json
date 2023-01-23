@@ -1,5 +1,4 @@
 {
-  aws_app_identifier: 'container-eb367901',
   name: 'container',
   type: 'container',
   environment_variables: [],
