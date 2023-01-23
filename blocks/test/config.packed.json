@@ -1,0 +1,19 @@
+{
+  aws_app_identifier: 'container-eb367901',
+  name: 'container',
+  type: 'container',
+  environment_variables: [],
+  secrets: {},
+  target: 'diggerhq/target-ecs-module@dev',
+  task_memory: 512,
+  task_cpu: 256,
+  container_port: 8000,
+  load_balancer: true,
+  internal: false,
+  health_check: '/',
+  health_check_matcher: '200-499',
+  launch_type: 'FARGATE',
+  monitoring_enabled: false,
+  lb_monitoring_enabled: false,
+  custom_terraform: ''
+}
